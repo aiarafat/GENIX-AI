@@ -1,0 +1,7 @@
+{
+  "name": "Genix AI",
+  "description": "A modern, ChatGPT-style interface for Genix AI, featuring streaming responses, file attachments, and a clean dark-mode UI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -2,7 +2,9 @@ import { GoogleGenAI, GenerateContentResponse, Modality, FunctionDeclaration, Ty
 import { Attachment } from "../types";
 
 // Initialize the client with the API key from environment variables
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ 
+    apiKey: import.meta.env.VITE_GEMINI_API_KEY 
+});
 
 // Define the image generation tool
 const generateImageTool: FunctionDeclaration = {
